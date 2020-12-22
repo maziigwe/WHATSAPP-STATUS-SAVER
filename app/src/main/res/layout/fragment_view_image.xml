@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/viewImage1"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ViewImage">
+
+
+    <LinearLayout
+        android:id="@+id/viewImage2"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <androidx.viewpager.widget.ViewPager
+        android:layout_weight="2.7"
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:paddingTop="@dimen/_1dp"
+            android:paddingBottom="@dimen/_1dp"
+            android:layout_marginBottom="@dimen/_1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <Button
+                android:layout_marginLeft="@dimen/_1dp"
+                android:layout_marginRight="@dimen/_1dp"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/download"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Download" />
+
+            <Button
+                android:layout_marginRight="@dimen/_1dp"
+                android:layout_marginLeft="@dimen/_1dp"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Share" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
