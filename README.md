@@ -1,4 +1,4 @@
-Private Status Saver App is used to view,save, watch your WhatsApp status stories while protecting them your other media (photos and Videos) files from unauthorized users.
+--Private Status Saver App is used to view,save, watch your WhatsApp status stories while protecting them your other media (photos and Videos) files from unauthorized users.
 [Whatsapp-Saver](bit.ly/3riNZrj)
 You can use this App to download your WhatsApp statuses into your phone's gallery after viewing it. You can also use it to save statuses into a private lock for privacy where only your password will be used to access. You can also share/forward your statuses in batch across social media platforms. This App contains automated inbuilt video player and photo viewer. Basically, in addition to saving your statuses, this app can help you hide them from your gallery or export it back into your gallery.
 
